@@ -36,3 +36,6 @@ export default class App extends Component {
 	}
 }
 
+/*
+ * comment here
+ */
