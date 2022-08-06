@@ -17,7 +17,7 @@ export default class App extends Component {
 			}
 		}
 	async getSchema(){
-		const res = await axios.get('https://lambda.us-east-1.amazonaws.com/2015-03-31/functions/arn:aws:lambda:us-east-1:751383665607:function:func9/invocations')
+		const res = await axios.get(' https://7xj8zslsgf.execute-api.us-east-1.amazonaws.com/beta')
 		console.log(res.data)
 		this.setState({loading:false, users: res.data})
 		}       
