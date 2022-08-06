@@ -17,7 +17,7 @@ export default class App extends Component {
 			}
 		}
 	async getSchema(){
-		const res = await axios.get(' https://7xj8zslsgf.execute-api.us-east-1.amazonaws.com/beta')
+		const res = await axios.get('https://7xj8zslsgf.execute-api.us-east-1.amazonaws.com/prod/getschema')
 		console.log(res.data)
 		this.setState({loading:false, users: res.data})
 		}       
